@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <remote  name="bit"
+           fetch="https://bitbucket.org"/>
+
+   <remote name="github"
+           fetch="https://github.com"/>
+
+<manifest>
+    <project name="lineageos/android_device_mediatek_sepolicy_vndr" path="device/mediatek/Sepolicy_vndr" revision="lineage-21" remote="github" />
+    <project name="cly-build/kernel-xiaomi-mt6785" path="kernel/xiaomi/mt6785" revision="rad" remote="github" />
+    <project name="xiaomi-mt6785-dev/proprietary_vendor_xiaomi_rosemary" path="vendor/xiaomi/rosemary" revision="lineage-21" remote="github" />
+    <project name="xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="github" />
+    <project name="xiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" remote="github" />
+    <project name="saikrishna1504/vendor_miuicameraleica" path="vendor/MiuiCameraLeica" revision="udc" remote="bit" />
+</manifest>
