@@ -7,11 +7,12 @@
            fetch="https://github.com"/>
 
 <manifest>
-    <project name="heyradrepo/android_device_xiaomi_rosemary" path="device/xiaomi/rosemary" revision="evox" clone-depth="1" remote="github" />
+    <project name="heyradrepo/android_device_xiaomi_rosemary" path="device/xiaomi/rosemary" revision="derp" clone-depth="1" remote="github" />
     <project name="lineageos/android_device_mediatek_sepolicy_vndr" path="device/mediatek/Sepolicy_vndr" revision="lineage-21" remote="github" />
-    <project name="heyradrepo/kernel_rosemary" path="kernel/xiaomi/mt6785" revision="udc" remote="github" />
+    <project name="heyradrepo/kernel_rosemary" path="kernel/xiaomi/mt6785" clone-depth="1" revision="udc" remote="github" />
     <project name="xiaomi-mt6785-dev/proprietary_vendor_xiaomi_rosemary" path="vendor/xiaomi/rosemary" revision="lineage-21" remote="github" />
     <project name="xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="github" />
     <project name="xiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" remote="github" />
     <project name="saikrishna1504/vendor_miuicameraleica" path="vendor/MiuiCameraLeica" revision="udc" remote="bit" />
+    <project name="cly-build/packages_apps_viper" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
 </manifest>
