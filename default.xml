@@ -1,17 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-  <remote  name="bit"
-           fetch="https://bitbucket.org"/>
-
-   <remote name="github"
-           fetch="https://github.com"/>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-    <project name="heyradrepo/android_device_xiaomi_rosemary" path="device/xiaomi/rosemary" revision="evox" clone-depth="1" remote="github" />
-    <project name="lineageos/android_device_mediatek_sepolicy_vndr" path="device/mediatek/Sepolicy_vndr" revision="lineage-21" remote="github" />
-    <project name="heyradrepo/kernel_rosemary" path="kernel/xiaomi/mt6785" revision="udc" remote="github" />
-    <project name="xiaomi-mt6785-dev/proprietary_vendor_xiaomi_rosemary" path="vendor/xiaomi/rosemary" revision="lineage-21" remote="github" />
-    <project name="xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="github" />
-    <project name="xiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" remote="github" />
-    <project name="saikrishna1504/vendor_miuicameraleica" path="vendor/MiuiCameraLeica" revision="udc" remote="bit" />
+   <!-- Remote -->
+   <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="gh" fetch="https://github.com"/>
+   <remote name="bit" fetch="https://bitbucket.org/"/>
+
+   <!-- Addons -->
+   <project path="vendor/MiuiCameraLeica" name="saikrishna1504/vendor_miuicameraleica" remote="bit" revision="udc" clone-depth="1"/>
+
+   <!-- Trees -->
+   <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="derp" clone-depth="1"/>
+   <project path="kernel/xiaomi/mt6785" name="heyradrepo/kernel_rosemary" remote="gh" revision="udc" clone-depth="1"/>
+   <project path="vendor/xiaomi/rosemary" name="xiaomi-mt6785-dev/proprietary_vendor_xiaomi_rosemary" remote="gh" revision="lineage-21" clone-depth="1"/>
+   
+   <!-- SePolicy -->
+   <project path="device/mediatek/sepolicy_vndr" name="hannahmontanadeving/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1"/>
+   
+   <!-- Hardware -->
+   <project path="hardware/mediatek" name="xiaomi-mediatek-devs/android_hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="hardware/xiaomi" name="xiaomi-mediatek-devs/android_hardware_xiaomi" remote="gh" revision="lineage-21" clone-depth="1"/>
+
+   <!-- Clang -->
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+   
 </manifest>
