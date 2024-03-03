@@ -8,7 +8,7 @@
    <remote name="rad" fetch="https://github.com/heyradrepo"/>
 
    <!-- Trees -->
-   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="rad" revision="11.0" clone-depth="1"/>
+   <project path="device/redmi/rosemary" name="android_device_xiaomi_rosemary" remote="rad" revision="11.0" clone-depth="1"/>
    <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="hub" revision="lineage-18.1" clone-depth="1"/>
    <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="chas" revision="eleven" clone-depth="1"/>
    
