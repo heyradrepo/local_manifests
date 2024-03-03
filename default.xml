@@ -12,7 +12,7 @@
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="derp" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="heyradrepo/kernel_rosemary" remote="gh" revision="udc" clone-depth="1"/>
-   <project path="vendor/xiaomi/rosemary" name="xiaomi-mt6785-dev/proprietary_vendor_xiaomi_rosemary" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="vendor/xiaomi/rosemary" name="AndroDesk/proprietary_vendor_xiaomi_rosemary" remote="gh" revision="lineage-21" clone-depth="1"/>
    
    <!-- SePolicy -->
    <project path="device/mediatek/sepolicy_vndr" name="hannahmontanadeving/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1"/>
