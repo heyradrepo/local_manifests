@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+>
+<manifest>
 
   <remote  name="bit"
            fetch="https://bitbucket.org"/>
 
    <remote name="github"
-           fetch="https://github.com"/>
-
-<manifest>
+           fetch="https://github.com"/
+    <!-- tree -->      
     <project name="heyradrepo/android_device_xiaomi_rosemary" path="device/xiaomi/rosemary" revision="derp" clone-depth="1" remote="github" />
     <project name="lineageos/android_device_mediatek_sepolicy_vndr" path="device/mediatek/Sepolicy_vndr" revision="lineage-21" remote="github" />
     <project name="heyradrepo/kernel_rosemary" path="kernel/xiaomi/mt6785" clone-depth="1" revision="udc" remote="github" />
