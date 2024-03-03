@@ -3,23 +3,24 @@
 <manifest>
    <!-- Remote -->
    <remote name="lab" fetch="https://gitlab.com"/>
-   <remote name="gh" fetch="https://github.com"/>
-   <remote name="bit" fetch="https://bitbucket.org/"/>
-
-   <!-- Addons -->
-   <project path="vendor/MiuiCameraLeica" name="saikrishna1504/vendor_miuicameraleica" remote="bit" revision="udc" clone-depth="1"/>
+   <remote name="chas" fetch="https://github.com/chas-prjkt"/>
+   <remote name="hub" fetch="https://github.com/CodeChas3r1"/>
+   <remote name="rad" fetch="https://github.com/heyradrepo"/>
 
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="derp" clone-depth="1"/>
-   <project path="kernel/xiaomi/mt6785" name="heyradrepo/kernel_rosemary" remote="gh" revision="udc" clone-depth="1"/>
-   <project path="vendor/xiaomi/rosemary" name="AndroDesk/proprietary_vendor_xiaomi_rosemary" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="rad" revision="11.0" clone-depth="1"/>
+   <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="hub" revision="lineage-18.1" clone-depth="1"/>
+   <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="chas" revision="eleven" clone-depth="1"/>
+   
+   <!-- Extras -->
+   <project path="vendor/mediatek/opensource" name="android_vendor_mediatek_opensource" remote="chas" revision="eleven" clone-depth="1"/>
+   <project path="vendor/mediatek/interfaces" name="android_vendor_mediatek_interfaces" remote="chas" revision="eleven" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="hannahmontanadeving/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="chas" revision="11.0" clone-depth="1"/>
    
    <!-- Hardware -->
-   <project path="hardware/mediatek" name="xiaomi-mediatek-devs/android_hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1"/>
-   <project path="hardware/xiaomi" name="xiaomi-mediatek-devs/android_hardware_xiaomi" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="chas" revision="lineage-18.1" clone-depth="1"/>
 
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
