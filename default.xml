@@ -4,10 +4,10 @@
    <!-- Remote -->
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="gh" fetch="https://github.com"/>
-   <remote name="bit" fetch="https://bitbucket.org/"/>
+   <remote name="bit" fetch="https://codeberg.org/"/>
 
    <!-- Addons -->
-   <project path="vendor/MiuiCameraLeica" name="saikrishna1504/vendor_miuicameraleica" remote="bit" revision="udc" clone-depth="1"/>
+   <project path="vendor/gcgop" name="heyradrepo/vendor_gcgop" remote="bit" revision="master" clone-depth="1"/>
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="derp" clone-depth="1"/>
