@@ -15,7 +15,7 @@
    <project path="vendor/xiaomi/rosemary" name="heyradrepo/android_vendor_xiaomi_rosemary" remote="gh" revision="udc" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="hannahmontanadeving/android_device_mediatek_sepolicy_vndr" remote="gh" revision="lineage-21" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="heyradrepo/android_device_mediatek_sepolicy_vndr" remote="gh" revision="udc" clone-depth="1"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="heyradrepo/hardware_mediatek" remote="gh" revision="lineage-21" clone-depth="1"/>
