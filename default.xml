@@ -11,7 +11,7 @@
    <project path="packages/apps/InnerTune" name="HorizonDroidLab/packages_apps_InnerTune" remote="gh" revision="14" clone-depth="1"/>
 
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="14" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="pixel" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="heyradrepo/kernel_xiaomi_rosemary" remote="gh" revision="udc" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="heyradrepo/android_vendor_xiaomi_rosemary" remote="gh" revision="udc" clone-depth="1"/>
    
