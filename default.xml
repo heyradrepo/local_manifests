@@ -8,6 +8,7 @@
 
    <!-- Addons -->
    <project path="vendor/gcgop" name="heyradrepo/vendor_gcgop" remote="bit" revision="master" clone-depth="1"/>
+   <project path="packages/apps/InnerTune" name="HorizonDroidLab/packages_apps_InnerTune" remote="gh" revision="14" clone-depth="1"/>
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="14" clone-depth="1"/>
