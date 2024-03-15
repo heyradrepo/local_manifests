@@ -7,7 +7,7 @@
    <remote name="bit" fetch="https://codeberg.org/"/>
 
    <!-- Addons -->
-   <project path="vendor/gcgop" name="heyradrepo/vendor_gcgop" remote="bit" revision="master" clone-depth="1"/>
+   <project path="vendor/MiuiCameraLeica" name="heyradrepo/vendor_miuicameraleica" remote="bit" revision="micam" clone-depth="1"/>
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="hal" clone-depth="1"/>
