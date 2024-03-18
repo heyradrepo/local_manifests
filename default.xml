@@ -10,7 +10,7 @@
    <project path="vendor/MiuiCameraLeica" name="heyradrepo/vendor_miuicameraleica" remote="bit" revision="udc" clone-depth="1"/>
 
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="hrz" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="heyradrepo/android_device_xiaomi_rosemary" remote="gh" revision="pixelos" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="heyradrepo/kernel_xiaomi_rosemary" remote="gh" revision="udc" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="heyradrepo/android_vendor_xiaomi_rosemary" remote="gh" revision="udc" clone-depth="1"/>
    
