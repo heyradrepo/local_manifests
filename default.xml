@@ -2,7 +2,7 @@
 
 <manifest>
    <!-- Remote -->
-   <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="lab" fetch="https://gitgud.io/"/>
    <remote name="gh" fetch="https://github.com"/>
    <remote name="bit" fetch="https://codeberg.org/"/>
 
@@ -22,6 +22,6 @@
    <project path="hardware/xiaomi" name="heyradrepo/hardware_xiaomi" remote="gh" revision="lineage-21" clone-depth="1"/>
 
    <!-- Clang -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="heyradrepo/clang/prebuilts_clang_host_linux-x86_clang-r487747c" remote="lab" revision="master" clone-depth="1"/>
    
 </manifest>
